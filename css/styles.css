@@ -1,0 +1,222 @@
+body {
+  font-family: 'Montserrat-Bold', sans-serif;
+  margin: 0;
+}
+
+/* h1-h3 */
+h1 {
+  font-family: 'Spline Sans', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.h1 {
+  color: gold;
+}
+
+.iphone {
+  width: 50%;
+  transform: rotate(20deg);
+  position: absolute;
+}
+
+h2 {
+  font-family: 'Spline Sans', sans-serif;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: bold;
+}
+
+/* title */
+#title {
+  background-color: #92A9BD;
+}
+
+.logotitle:hover {
+  color: #FFE162;
+}
+
+/* navlink */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+  font-weight: bold;
+  color:gold;
+}
+
+
+.nav-item {
+  font-weight: bold;
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  color: #fff;
+}
+
+/* containerfluid */
+.container-fluid {
+  padding: 5% 15%;
+}
+
+/* donwloadbutton */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #D6E5FA;
+  z-index: 1;
+  position: relative;
+}
+
+
+
+.benefits {
+  text-align: center;
+  padding: 5%;
+  background-color: #E7FBBE;
+}
+
+/* iconsection */
+.icontree {
+  color: green;
+}
+
+.icontree:hover {
+  color: #1E5128;
+}
+
+.iconcatwlk {
+  color: #FFAD60;
+}
+
+.iconcatwlk:hover {
+  color: #FF7F3F;
+}
+
+.iconheart {
+  color: red;
+}
+
+.iconheart:hover {
+  color: #8D2828;
+}
+
+/* textimonial */
+
+#testimonials {
+  background-color: #92A9BD;
+  padding: 7% 15%;
+  color: white;
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 15% 15%;
+}
+
+.testimonials-img {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+/* price section */
+#press {
+  background-color: #92A9BD;
+  text-align: center;
+  padding-bottom: -5%;
+}
+
+.press-logo {
+  width: 20%;
+  margin: 20px 20px 50px;
+  border-radius: 100%;
+}
+
+.card {
+  text-align: center;
+  background-color: #D6E5FA;
+}
+.card-body{
+  font-family:Montserrat-bold;
+  font-size:1rem;
+}
+.card:hover {
+  color:#FF2442 ;
+}
+.logo-price {
+  width: 10%;
+}
+
+#pricing {
+  text-align: center;
+  background-color: #D6E5FA;
+  padding-top: 50px;
+}
+
+.price-button {
+  background-color: #018383;
+}
+
+.price-button:hover {
+  background-color: #3EDBF0;
+}
+
+#cta {
+  background-color: #92A9BD;
+  color: white;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+/* footer */
+
+#footer {
+  text-align: center;
+}
+
+.imglogofooter {
+  width: 3%;
+  margin-right: 2%;
+  margin-left: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+/* download button akhir */
+.downloadend-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* media query breakpoint */
+@media (max-width:1028px) {
+  h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+.imglogofooter{
+  width:6%;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+}
